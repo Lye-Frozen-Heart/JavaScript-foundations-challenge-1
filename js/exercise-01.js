@@ -9,13 +9,21 @@
       Log 'name' value.
 */
 let nameVariable = "Alexandre";
+
 function updateValue(value){ nameVariable = value;}
+
 updateValue("Mozart");
+
 console.log(nameVariable);
+
 updateValue(true);
+
 console.log(nameVariable);
+
 updateValue('28');
+
 console.log(nameVariable);
+
 updateValue(28);
+
 console.log(nameVariable);
-console.log("Exc 01:---> finished");

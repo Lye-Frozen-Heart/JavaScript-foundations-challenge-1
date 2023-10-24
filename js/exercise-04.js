@@ -7,10 +7,15 @@
 
     Once you see the results, write in a comment why it works that way
 */
+
 true && console.log("moo");
+
 false && console.log("moo moo?");
+
 true || console.log("hello friend");
+
 false || console.log("bye friend");
+
 /*
  * true && console.log("moo"); --> Evaluates always with && if the expression returns true,
  * so this one returns true and executes the console.log.
@@ -22,4 +27,3 @@ false || console.log("bye friend");
  * false || console.log("bye friend"); --> The first value returns false so arrives at
  * the second statement and prints the value.
  */
-console.log("Exc 04:---> finished");

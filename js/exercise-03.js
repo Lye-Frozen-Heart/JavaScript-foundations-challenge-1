@@ -3,8 +3,15 @@
         Use typeof to ckech the types for each of the main 5 primitive types (string, number, boolean, null, undefined)
     2. Log the result of any function call.
 */
-function getTypeOf(value){
-return typeof value
-}
+
+function getTypeOf(value){return typeof value}
+
+console.log(getTypeOf("Hello world!"));
+
+console.log(getTypeOf(8));
+
 console.log(getTypeOf(true));
-console.log("Exc 03:---> finished");
+
+console.log(getTypeOf(null)); //When checked its an object
+
+console.log(getTypeOf(undefined));

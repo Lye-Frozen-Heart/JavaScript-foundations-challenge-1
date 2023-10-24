@@ -5,8 +5,11 @@
     
     Repeat the above steps but try using a const variable. Comment this new part of code and explain what is happening.
 */
+
 let unassignedLet; 
+
 unassignedLet = "Moo!";
+
 console.log(unassignedLet);
 
 /*
@@ -15,4 +18,3 @@ console.log(unassignedLet);
 *console.log(unassignedVariable);
 *Constants must be initialized at first and also can't be changed/reassigned! 
 */
-console.log("Exc 02:---> finished");
