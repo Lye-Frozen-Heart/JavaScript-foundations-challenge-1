@@ -4,7 +4,9 @@
     2. Log the result of any function call.
 */
 
-function getTypeOf(value){return typeof value}
+function getTypeOf(value) {
+  return typeof value;
+}
 
 console.log(getTypeOf("Hello world!"));
 

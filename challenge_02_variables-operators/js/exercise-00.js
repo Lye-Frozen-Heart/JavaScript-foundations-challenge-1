@@ -10,20 +10,20 @@
 */
 const stringVariable = "Hello";
 
-console.log({stringVariable});
+console.log({ stringVariable });
 
 const numberVariable = 8;
 
-console.log({numberVariable});
+console.log({ numberVariable });
 
 const booleanVariable = true;
 
-console.log({booleanVariable});
+console.log({ booleanVariable });
 
 const nullVariable = null;
 
-console.log({nullVariable});
+console.log({ nullVariable });
 
 const undefinedVariable = undefined;
 
-console.log({undefinedVariable});
+console.log({ undefinedVariable });
