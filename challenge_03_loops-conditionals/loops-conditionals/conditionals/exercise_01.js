@@ -7,3 +7,7 @@
 
     HINT: modulus operator ( % ) is your friend
 */
+let numberToCheck = 14;
+if (numberToCheck % 2 == 0)
+  console.log("It's pair! The number is: ", numberToCheck);
+else console.log("It's odd! The number is: ", numberToCheck);
