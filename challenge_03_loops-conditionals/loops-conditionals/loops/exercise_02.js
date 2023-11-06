@@ -18,9 +18,9 @@
     You made it!
     All, done!
 */
-for (let i = 1; i < 100; i++) {
-  if (i == 50) console.log("Half way there!");
-  else if (i == 100) console.log("You made it!");
-  else if (i % 10 == 0) console.log("Checkpoint! ", i);
+for (let counter = 1; counter < 100; counter++) {
+  if (counter == 50) console.log("Half way there!");
+  else if (counter == 100) console.log("You made it!");
+  else if (counter % 10 == 0) console.log("Checkpoint! ", counter);
 }
 console.log("All, done!");
