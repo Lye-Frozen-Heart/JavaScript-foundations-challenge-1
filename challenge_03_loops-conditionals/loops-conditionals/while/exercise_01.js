@@ -5,11 +5,11 @@
 */
 let incrementalEven = 10;
 while (incrementalEven <= 40) {
-  if (incrementalEven % 2 == 0) console.log("Even: ", incrementalEven);
+  if (incrementalEven % 2 === 0) console.log("Even: ", incrementalEven);
   incrementalEven++;
 }
 let incrementalOdd = 10;
 while (incrementalOdd <= 40) {
-  if (incrementalOdd % 2 == 1) console.log("Odd: ", incrementalOdd);
+  if (incrementalOdd % 2 === 1) console.log("Odd: ", incrementalOdd);
   incrementalOdd++;
 }

@@ -4,10 +4,10 @@
     2. Create a for loop that will print out all the odd numbers between 10 and 40.
 */
 for (let actualNumber = 10; actualNumber <= 40; actualNumber++) {
-  if (actualNumber % 2 == 0) console.log("Pair: ", actualNumber);
+  if (actualNumber % 2 === 0) console.log("Pair: ", actualNumber);
 }
 for (let actualNumber = 10; actualNumber <= 40; actualNumber++) {
-  if (actualNumber % 2 == 1) console.log("Odd: ", actualNumber);
+  if (actualNumber % 2 !== 1) console.log("Odd: ", actualNumber);
 }
 /**
  * A better solution: 

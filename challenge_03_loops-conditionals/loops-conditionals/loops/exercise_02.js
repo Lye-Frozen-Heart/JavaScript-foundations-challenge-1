@@ -20,7 +20,7 @@
 */
 for (let counter = 1; counter < 100; counter++) {
   if (counter == 50) console.log("Half way there!");
-  else if (counter == 100) console.log("You made it!");
-  else if (counter % 10 == 0) console.log("Checkpoint! ", counter);
+  else if (counter === 100) console.log("You made it!");
+  else if (counter % 10 === 0) console.log("Checkpoint! ", counter);
 }
 console.log("All, done!");

@@ -10,7 +10,27 @@
 */
 console.log("--- Animal Checker Program ---");
 let animal = "dog";
-if (animal == "cat") console.log("Meow!");
-else if (animal == "dog") console.log("Woof!");
-else console.log("Must be an alien");
+if (animal == "cat") {
+  console.log("Meow!");
+} else if (animal == "dog") {
+  console.log("Woof!");
+} else {
+  console.log("Must be an alien");
+}
+animal = "cat";
+if (animal == "cat") {
+  console.log("Meow!");
+} else if (animal == "dog") {
+  console.log("Woof!");
+} else {
+  console.log("Must be an alien");
+}
+animal = "crocodile";
+if (animal === "cat") {
+  console.log("Meow!");
+} else if (animal === "dog") {
+  console.log("Woof!");
+} else {
+  console.log("Must be an alien");
+}
 console.log("--- Animal Check Complete ---");
