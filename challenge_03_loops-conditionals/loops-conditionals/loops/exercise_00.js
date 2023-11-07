@@ -3,7 +3,7 @@
     
     2. Create a for loop that will print out all the odd numbers between 10 and 40.
 */
-for (let i = 10; i <= 40; i++) {
-  if (i % 2 == 0) console.log("Pair: ", i);
-  if (i % 2 == 1) console.log("Odd: ", i);
+for (let index = 10; index <= 40; index++) {
+  if (index % 2 == 0) console.log("Pair: ", index);
+  if (index % 2 == 1) console.log("Odd: ", index);
 }
