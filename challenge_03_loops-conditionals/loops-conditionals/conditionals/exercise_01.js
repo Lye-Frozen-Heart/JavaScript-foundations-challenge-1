@@ -7,15 +7,19 @@
 
     HINT: modulus operator ( % ) is your friend
 */
-let numberToCheck = 14;
-if (numberToCheck % 2 === 0) {
-  console.log("It's pair! The number is: ", numberToCheck);
-} else if (numberToCheck % 2 !== 0) {
-  console.log("It's odd! The number is: ", numberToCheck);
-}
-numberToCheck = 13;
-if (numberToCheck % 2 === 0) {
-  console.log("It's pair! The number is: ", numberToCheck);
-} else if (numberToCheck % 2 !== 0) {
-  console.log("It's odd! The number is: ", numberToCheck);
-}
+
+const numberChecker = function (number) {
+  let pairOrOdd =
+    number % 2 !== 0
+      ? `The number: ${number}, its odd!`
+      : `The number: ${number}, its pair!`;
+  return pairOrOdd;
+};
+
+console.log(numberChecker(14));
+
+console.log(numberChecker(13));
+
+console.log(numberChecker(3));
+
+console.log(numberChecker(true)); //Doesnt check type

@@ -8,29 +8,25 @@
     7. At the end of the program print out: "--- Animal check complete ---"
     8. Change animal to different values to make sure it works in all cases
 */
+
+const animalGreeting = function (animal) {
+  let animalSound = "Must be an alien";
+  if (typeof animal === "string") {
+    animal === "cat" && (animalSound = "Meow!");
+    animal === "dog" && (animalSound = "Woof!");
+  }
+  if (typeof animal !== "string") animalSound = "Wrong type entered!";
+  return animalSound;
+};
+
 console.log("--- Animal Checker Program ---");
-let animal = "dog";
-if (animal == "cat") {
-  console.log("Meow!");
-} else if (animal == "dog") {
-  console.log("Woof!");
-} else {
-  console.log("Must be an alien");
-}
-animal = "cat";
-if (animal == "cat") {
-  console.log("Meow!");
-} else if (animal == "dog") {
-  console.log("Woof!");
-} else {
-  console.log("Must be an alien");
-}
-animal = "crocodile";
-if (animal === "cat") {
-  console.log("Meow!");
-} else if (animal === "dog") {
-  console.log("Woof!");
-} else {
-  console.log("Must be an alien");
-}
+
+console.log(animalGreeting("cat"));
+
+console.log(animalGreeting("dog"));
+
+console.log(animalGreeting("reptile"));
+
+console.log(animalGreeting(true));
+
 console.log("--- Animal Check Complete ---");

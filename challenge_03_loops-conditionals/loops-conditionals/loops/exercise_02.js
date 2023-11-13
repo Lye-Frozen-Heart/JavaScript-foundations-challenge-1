@@ -18,9 +18,20 @@
     You made it!
     All, done!
 */
-for (let counter = 1; counter < 100; counter++) {
-  if (counter == 50) console.log("Half way there!");
-  else if (counter === 100) console.log("You made it!");
-  else if (counter % 10 === 0) console.log("Checkpoint! ", counter);
-}
-console.log("All, done!");
+const tenthLoop = function (lowerNumber, higherNumber) {
+  for (let counter = lowerNumber; counter < higherNumber; counter++) {
+    if (counter == 50) console.log("Half way there!");
+    else if (counter === 100) console.log("You made it!");
+    else if (counter % 10 === 0) console.log("Checkpoint! ", counter);
+  }
+  console.log("All, done!");
+};
+console.log("###############################");
+console.log("--- Is TENTH loop Program ---");
+
+const firstValue = 1;
+const lastValue = 100;
+
+tenthLoop(firstValue, lastValue);
+
+console.log("--- Is TENTH loop complete ---");

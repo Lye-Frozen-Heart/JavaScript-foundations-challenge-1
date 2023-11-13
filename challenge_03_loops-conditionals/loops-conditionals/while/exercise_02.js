@@ -18,10 +18,39 @@
     You made it!
     All, done!
 */
-let numberToCheck = 1;
-while (numberToCheck <= 100) {
-  if (numberToCheck === 50) console.log("Half way there!");
-  else if (numberToCheck === 100) console.log("You made it!");
-  else if (numberToCheck % 10 === 0) console.log("Checkpoint! ", numberToCheck);
-  numberToCheck++;
-}
+
+/**
+ * isTenthWhile
+ */
+const isTenthWhile = function (startNumber, limitNumber) {
+  let currentNumber = startNumber;
+
+  while (currentNumber <= limitNumber) {
+    if (currentNumber === 100) {
+      console.log("You made it!\nAll, done!");
+    }
+
+    if (currentNumber === 50) {
+      console.log("Half way there!");
+    }
+
+    if (currentNumber % 10 === 0 && currentNumber % 50 !== 0) {
+      console.log(`Checkpoint! ${currentNumber}`);
+    }
+
+    currentNumber++;
+  }
+};
+
+/**
+ * Program execution
+ */
+console.log("###############################");
+console.log("--- Is TENTH while Program ---");
+
+const startNumber = 1;
+const limitNumber = 100;
+
+isTenthWhile(startNumber, limitNumber);
+
+console.log("--- Is TENTH while complete ---");
