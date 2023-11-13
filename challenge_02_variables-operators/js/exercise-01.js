@@ -10,7 +10,9 @@
 */
 let nameVariable = "Alexandre";
 
-function updateValue(value){ nameVariable = value;}
+function updateValue(value) {
+  nameVariable = value;
+}
 
 updateValue("Mozart");
 
@@ -20,7 +22,7 @@ updateValue(true);
 
 console.log(nameVariable);
 
-updateValue('28');
+updateValue("28");
 
 console.log(nameVariable);
 
